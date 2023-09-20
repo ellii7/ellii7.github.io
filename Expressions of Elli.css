@@ -1,0 +1,284 @@
+body {
+    position: center;
+    margin: 1%;
+}
+
+#webtitle {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0%;
+  }
+
+  .topnav {
+    font-family: 'Lunasima', sans-serif;
+    text-align: center; 
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+  }
+
+  .topnavitem {
+    padding: 1em;
+  }
+  
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+  p {
+    font-family: 'Lunasima', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    margin-bottom: 5%;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 6px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 6px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+/*
+  .column img:hover {
+      -ms-transform: scale(1.05); /* IE 9 */ /*
+      -webkit-transform: scale(1.05); /* Safari 3-8 */ /*
+      transform: scale(1.05); 
+  } 
+  */ 
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/* Putting in images
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+
+.Elliheadshot img {
+    max-width: 35%;
+    height: auto;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 0%;
+    align-items: center;
+    
+  }
+
+.Elliheadshot {
+  display: flex;
+  padding: 2%;
+  align-items: center;
+  text-align: justify;
+  width: 100%;
+  
+}
+
+.Elliheadshot p {
+  text-align: left;
+  margin: 3%;
+  margin-right: 4%;
+  line-height: 170%;
+  font-size: larger;
+  
+}
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 25%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/*
+
+.button {
+  font-size: larger;
+  border-radius: 2px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+} 
+*/
+
+.bottomnav {
+    font-family: 'Lunasima', sans-serif;
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    overflow: hidden;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .bottomnavitem {
+    padding: 1em;
+    background-color: white;
+  
+  }
+
+  .Copyright {
+    font-family: 'Lunasima', sans-serif;
+    display: flex;
+    justify-content: left;
+    position: static;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 1em;
+    background-color: white;
+  }
+
+/* Image Float */
+
+/*.img-container {
+  float: left;
+  width: 33.33%; three containers (use 25% for four, and 50% for two, etc)
+  padding: 5px; if you want space between the images
+} */
+
+
+  /* contact me button
+  .contactme {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    position: static;
+    display: inline-block;
+    width:100px;
+    height:40px;
+  }
+  
+  .contactme:hover {background-color: #e7e7e7;}
+  */
+
+ /*  bruh idek what was happening here
+ ul {
+    font-family: 'Lunasima', sans-serif;
+    position: -webkit-sticky; 
+    position: sticky;
+    display: inline-block;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  } 
+
+ /* li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: grey;
+  } */
+
+  
